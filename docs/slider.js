@@ -4,11 +4,11 @@ showSlides();
 function showSlides() {
     var i;
     var slides = [
-        "photos/mean-girls-2024-movie_2000x1125.jpg", 
-        "photos/oppenheimer-movie-poster-wallpaper-1280x800_3.jpeg",
-        "photos/wallpapersden.com_timothee-wonka-movie-2023_3840x2160.jpg",
-        "photos/the-avengers-superhero-movie-eeotwqkmypkvalg9.jpeg",
-        "photos/5eMvCxuWYwXJEE685B8YRE.jpeg",
+        "./photos/mean-girls-2024-movie_2000x1125.jpg", 
+        "./photos/oppenheimer-movie-poster-wallpaper-1280x800_3.jpeg",
+        "./photos/wallpapersden.com_timothee-wonka-movie-2023_3840x2160.jpg",
+        "./photos/the-avengers-superhero-movie-eeotwqkmypkvalg9.jpeg",
+        "./photos/5eMvCxuWYwXJEE685B8YRE.jpeg",
         
         
         

@@ -207,3 +207,25 @@ footer {
   width: 100%;
   word-spacing: 8;
 }
+
+
+
+
+@media screen and (max-width: 768px) {
+  .main{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 100vw;
+  }
+  .movieContainer{
+    width: 90%;
+  }
+  .movieDescription{
+    font-size: 9px;
+  }
+  .movieDetails{
+    display: flex;
+    font-size: 10px
+  }
+}
