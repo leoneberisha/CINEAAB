@@ -9,9 +9,6 @@ function showSlides() {
         "./photos/wallpapersden.com_timothee-wonka-movie-2023_3840x2160.jpg",
         "./photos/the-avengers-superhero-movie-eeotwqkmypkvalg9.jpeg",
         "./photos/5eMvCxuWYwXJEE685B8YRE.jpeg",
-        
-        
-        
     ]; // Add more images here
     var image = document.getElementById("slideImg");
     slideIndex++;
