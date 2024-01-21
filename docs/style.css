@@ -1,0 +1,183 @@
+.body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.header {
+    background-color: rgba(29, 77, 42, 0.573);
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.emri {
+    display: inline;
+    float: right
+    display block;
+    padding: 8px;
+
+}
+  
+.navbar ul {
+  list-style-type: none;
+  margin-right: 20px;
+  padding: 0;
+  display: flex;
+}
+
+.navbar ul li {
+  color: rgb(248, 248, 248);
+  margin-left: 20px;
+}
+
+.navbar ul li a {
+  color: rgb(248, 248, 248);
+  margin-left: 20px;
+  text-decoration: none;
+  font-family: 'Indie Flower', cursive;
+  font-size: x-large;
+}
+
+.emriTitullit {
+    color: rgb(248, 248, 248);
+    margin-left: 20px;
+    font-family: 'Indie Flower', cursive;
+    font-size: xx-large;
+    text-decoration: none;
+}
+
+.main {
+   /* background-color: rgb(177, 133, 178); */
+    height: 90vh;
+    width: 100vw;
+    background-color: rgb;
+    overflow: scroll;
+    display: flex;
+    flex-direction: row;
+    font-size: large;
+   
+    
+   
+}
+
+.moviePhoto {
+    height: 300px; 
+   
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  width: 101vw;
+  
+}
+
+.movieContainer {
+  display: flex;
+  align-items: flex-start;
+  width: calc(50% - 50px); /* 50% width with some gap */
+  margin: 20px;
+  background: rgba(29, 77, 42, 0.283);
+  box-sizing: border-box;
+ 
+}
+.movieTitle {
+  width: 200px;    
+  align-items: normal;    
+}
+.movieSchedule{
+  align-items: normal;
+}
+
+.cardDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 72%;
+  height: 100%;
+}
+.movieTitle{
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  font-size: 24px;
+  margin-top:20px;
+  width: 100%;
+}
+.movieDetails{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  font-family:'Times New Roman', Times, serif;
+}
+.movieDescription{
+  margin:10px;
+  font-family: 'Indie Flower', cursive;
+  font-size: large;
+
+}
+
+
+
+
+/* From here is the slider classes */
+h1 {
+  font-family: 'Indie Flower', cursive;
+}
+
+.main-content-cs {
+width: 100%;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+background-color: rgba(13, 32, 18, 0.573);
+
+}
+.main-content-a{
+  width: 100%;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+
+
+
+
+
+}
+
+/*/ chatgpt /*/
+.about-section {
+  padding: 50px 0;
+  text-align: center;
+
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-family: none;
+  
+}
+
+p{
+  margin-bottom: 15px;
+  
+  font-size: x-large;
+  
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #545151;
+  color: #fff;
+  width: 100%;
+  word-spacing: 8;
+}
