@@ -4,11 +4,11 @@ showSlides();
 function showSlides() {
     var i;
     var slides = [
-        "photos/mean-girls-2024-movie_2000x1125.jpg", 
-    "photos/5eMvCxuWYwXJEE685B8YRE.jpeg",
-    "photos/oppenheimer-movie-poster-wallpaper-1280x800_3.jpeg",
-    "photos/wallpapersden.com_timothee-wonka-movie-2023_3840x2160.jpg",
-    "photos/the-avengers-superhero-movie-eeotwqkmypkvalg9.jpeg",
+        "/photos/mean-girls-2024-movie_2000x1125.jpg", 
+        "/photos/oppenheimer-movie-poster-wallpaper-1280x800_3.jpeg",
+        "/photos/wallpapersden.com_timothee-wonka-movie-2023_3840x2160.jpg",
+        "/photos/the-avengers-superhero-movie-eeotwqkmypkvalg9.jpeg",
+        "/photos/5eMvCxuWYwXJEE685B8YRE.jpeg",
         
         
         
@@ -19,5 +19,5 @@ function showSlides() {
         slideIndex = 1
     }    
     image.src = slides[slideIndex-1];
-    setTimeout(showSlides, 1000); // Change image every 5000 milliseconds (5 seconds)
+    setTimeout(showSlides, 2000); // Change image every 5000 milliseconds (5 seconds)
 }
